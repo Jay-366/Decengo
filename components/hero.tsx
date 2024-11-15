@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function Hero() {
     return (
-        <div className="relative bg-[url('/img/hero-pattern.svg')] h-[400px] flex items-center justify-center text-white">
+        <div className="relative bg-[url('/hero.avif')] bg-no-repeat bg-cover h-[400px] flex items-center justify-center text-white">
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-center">
           <h1 className="text-4xl font-bold">Historic Festival 42</h1>
