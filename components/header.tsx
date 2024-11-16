@@ -1,7 +1,7 @@
 // src/app/page.tsx
 'use client';
 import { useState } from 'react';
-import VenueHighlight from './components/VenueHighlight';
+import VenueHighlight from './venuehighlight';
 
 export default function Home() {
   const [isConnected, setIsConnected] = useState(false);
@@ -68,8 +68,8 @@ export default function Home() {
   };
 
   return (
-    <header className="flex items-center justify-between w-full bg-gray-100 p-4 shadow-md">
-      <h1 className="text-lg font-semibold">Wallet Connect Demo</h1>
+    <header className="fixed top-0 left-0 right-0 z-10 flex items-center justify-between w-full bg-gray-100 p-4 shadow-md">
+      <h1 className="text-lg font-semibold text-red-500">Event Manager</h1>
 
       {error && (
         <div className="text-xs text-red-500 mr-2">

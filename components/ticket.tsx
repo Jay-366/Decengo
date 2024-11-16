@@ -8,7 +8,7 @@ const venues = [
     title: "Grand Ballroom",
     price: "$1500",
     image: "/hero.avif",
-    date: "Available Year Round",
+    date: "Available Year Round", 
     description:
       "A luxurious ballroom perfect for weddings, equipped with state-of-the-art facilities and elegant decor.",
     type: "Wedding",
